@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-25T06:19:45 IST" name="Suite" finished-at="2022-04-25T06:19:45 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite started-at="2022-04-25T06:19:38 IST" name="Suite (0)" finished-at="2022-04-25T06:19:44 IST" duration-ms="6273">
+    <groups>
+    </groups>
+    <test started-at="2022-04-25T06:19:38 IST" name="Test" finished-at="2022-04-25T06:19:44 IST" duration-ms="6273">
+      <class name="POM_App_TestCases.control_Panel">
+        <test-method signature="verify_user_information()[pri:0, instance:POM_App_TestCases.control_Panel@4550bb58]" started-at="2022-04-25T06:19:43 IST" name="verify_user_information" finished-at="2022-04-25T06:19:44 IST" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_user_information -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:POM_App_TestCases.control_Panel@4550bb58]" started-at="2022-04-25T06:19:44 IST" name="getResult" finished-at="2022-04-25T06:19:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_user_information status=SUCCESS method=control_Panel.verify_user_information()[pri:0, instance:POM_App_TestCases.control_Panel@4550bb58] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- POM_App_TestCases.control_Panel -->
+      <class name="POM_App_TestCases.LoginService">
+        <test-method is-config="true" signature="setup()[pri:0, instance:POM_App_TestCases.LoginService@223d2c72]" started-at="2022-04-25T06:19:33 IST" name="setup" finished-at="2022-04-25T06:19:38 IST" duration-ms="4891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_valid_User_Login(java.lang.String,java.lang.String)[pri:0, instance:POM_App_TestCases.LoginService@223d2c72]" started-at="2022-04-25T06:19:38 IST" name="verify_valid_User_Login" description="user valid login credentials" finished-at="2022-04-25T06:19:43 IST" duration-ms="4598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qatrainer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_valid_User_Login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:POM_App_TestCases.LoginService@223d2c72]" started-at="2022-04-25T06:19:43 IST" name="getResult" finished-at="2022-04-25T06:19:43 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_valid_User_Login status=SUCCESS method=LoginService.verify_valid_User_Login(java.lang.String,java.lang.String)[pri:0, instance:POM_App_TestCases.LoginService@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:POM_App_TestCases.LoginService@223d2c72]" started-at="2022-04-25T06:19:44 IST" name="tearDown" finished-at="2022-04-25T06:19:45 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- POM_App_TestCases.LoginService -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
