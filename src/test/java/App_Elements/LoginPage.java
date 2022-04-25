@@ -1,9 +1,10 @@
 package App_Elements;
 
-import org.junit.Assert;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 import Config.BrowserDriver;
 import POM_App_Utilities.AppScreens;
