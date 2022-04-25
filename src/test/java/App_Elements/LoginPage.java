@@ -1,5 +1,6 @@
 package App_Elements;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,6 +23,7 @@ public class LoginPage {
 	
 	@FindBy(name = "pass") private WebElement password;
 	public LoginPage Insert_Password(String pw) {
+	
 		password.sendKeys(pw);
 		 
 		return this;
@@ -29,13 +31,37 @@ public class LoginPage {
 	
 	@FindBy(name = "btnSubmit") private WebElement submit;
 	public LoginPage click_submit() {
-		submit.click();
+		
+		boolean clicksubmit = submit.isEnabled();
+		
+		if(clicksubmit==true) {
+			Assert.assertTrue(true);
+		}else
+		{
+			Assert.assertFalse(false);
+		}
+		
+		if(submit.isEnabled()) {
+			submit.click();
+			Assert.assertTrue(true);
+		}else
+		{
+			Assert.assertFalse(false);
+		
+		}
+		
+		
 		return this;
 	}
 	
 	@FindBy(css = "#user_bar > ul > li > a") private WebElement signout;
 	public LoginPage click_signout() {
-		signout.click();
+		
+		
+		if(signout.isEnabled()) {
+			signout.click();
+		}
+		
 		
 		return this;
 	}
